@@ -6,7 +6,7 @@
 
 <body>
 
-<?php echo "Hello World!"; ?>
+<?php echo "Hello World! Geoffrey has changed it!"; ?>
 <?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?><br /><br />
 
 <?php $links = [];
