@@ -1,2 +1,2 @@
 FROM registry.access.redhat.com/rhel7:7.3
-CMD bash -c "counter=0;while true; do counter=$(($counter++)); echo "test $counter"; sleep 5; done"
+CMD bash -c ";while true; do echo test; sleep 5; done"
